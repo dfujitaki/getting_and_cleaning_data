@@ -210,7 +210,10 @@ angleYgravityMean
 
 angleZgravityMean
 
+# Transformations
 
+* tidyavg contains averages of the above variables
+* no other significant transformations
 
 
 
