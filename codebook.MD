@@ -21,37 +21,94 @@ The following files are available for the train and test data. Their description
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 We are only interested in the means and standard deviations for this project.  All other columns were removed.
-Finalized Variable List:
-tBodyAccmeanX                    
-tBodyAccmeanY                     tBodyAccmeanZ                     tBodyAccstdX                     
-tBodyAccstdY                      tBodyAccstdZ                      tGravityAccmeanX                 
-tGravityAccmeanY                  tGravityAccmeanZ                  tGravityAccstdX                  
-tGravityAccstdY                   tGravityAccstdZ                   tBodyAccJerkmeanX                
-tBodyAccJerkmeanY                 tBodyAccJerkmeanZ                 tBodyAccJerkstdX                 
-tBodyAccJerkstdY                  tBodyAccJerkstdZ                  tBodyGyromeanX                   
-tBodyGyromeanY                    tBodyGyromeanZ                    tBodyGyrostdX                    
-tBodyGyrostdY                     tBodyGyrostdZ                     tBodyGyroJerkmeanX               
-tBodyGyroJerkmeanY                tBodyGyroJerkmeanZ                tBodyGyroJerkstdX                
-tBodyGyroJerkstdY                 tBodyGyroJerkstdZ                 tBodyAccMagmean                  
-tBodyAccMagstd                    tGravityAccMagmean                tGravityAccMagstd                
-tBodyAccJerkMagmean               tBodyAccJerkMagstd                tBodyGyroMagmean                 
-tBodyGyroMagstd                   tBodyGyroJerkMagmean              tBodyGyroJerkMagstd              
-fBodyAccmeanX                     fBodyAccmeanY                     fBodyAccmeanZ                    
-fBodyAccstdX                      fBodyAccstdY                      fBodyAccstdZ                     
-fBodyAccmeanFreqX                 fBodyAccmeanFreqY                 fBodyAccmeanFreqZ                
-fBodyAccJerkmeanX                 fBodyAccJerkmeanY                 fBodyAccJerkmeanZ                
-fBodyAccJerkstdX                  fBodyAccJerkstdY                  fBodyAccJerkstdZ                 
-fBodyAccJerkmeanFreqX             fBodyAccJerkmeanFreqY             fBodyAccJerkmeanFreqZ            
-fBodyGyromeanX                    fBodyGyromeanY                    fBodyGyromeanZ                   
-fBodyGyrostdX                     fBodyGyrostdY                     fBodyGyrostdZ                    
-fBodyGyromeanFreqX                fBodyGyromeanFreqY                fBodyGyromeanFreqZ               
-fBodyAccMagmean                   fBodyAccMagstd                    fBodyAccMagmeanFreq              
-fBodyBodyAccJerkMagmean           fBodyBodyAccJerkMagstd            fBodyBodyAccJerkMagmeanFreq      
-fBodyBodyGyroMagmean              fBodyBodyGyroMagstd               fBodyBodyGyroMagmeanFreq         
-fBodyBodyGyroJerkMagmean          fBodyBodyGyroJerkMagstd           fBodyBodyGyroJerkMagmeanFreq     
-angletBodyAccMeangravity          angletBodyAccJerkMeangravityMean  angletBodyGyroMeangravityMean    
-angletBodyGyroJerkMeangravityMean angleXgravityMean                 angleYgravityMean                
-angleZgravityMean    
+# Finalized Variable List:
+tBodyAccmeanX
+tBodyAccmeanY
+tBodyAccmeanZ
+tBodyAccstdX
+tBodyAccstdY
+tBodyAccstdZ
+tGravityAccmeanX
+tGravityAccmeanY
+tGravityAccmeanZ
+tGravityAccstdX
+tGravityAccstdY
+tGravityAccstdZ
+tBodyAccJerkmeanX
+tBodyAccJerkmeanY
+tBodyAccJerkmeanZ
+tBodyAccJerkstdX
+tBodyAccJerkstdY
+tBodyAccJerkstdZ
+tBodyGyromeanX
+tBodyGyromeanY
+tBodyGyromeanZ
+tBodyGyrostdX
+tBodyGyrostdY
+tBodyGyrostdZ
+tBodyGyroJerkmeanX
+tBodyGyroJerkmeanY
+tBodyGyroJerkmeanZ
+tBodyGyroJerkstdX
+tBodyGyroJerkstdY
+tBodyGyroJerkstdZ
+tBodyAccMagmean
+tBodyAccMagstd
+tGravityAccMagmean
+tGravityAccMagstd
+tBodyAccJerkMagmean
+tBodyAccJerkMagstd
+tBodyGyroMagmean
+tBodyGyroMagstd
+tBodyGyroJerkMagmean
+tBodyGyroJerkMagstd
+fBodyAccmeanX
+fBodyAccmeanY
+fBodyAccmeanZ
+fBodyAccstdX
+fBodyAccstdY
+fBodyAccstdZ
+fBodyAccmeanFreqX
+fBodyAccmeanFreqY
+fBodyAccmeanFreqZ
+fBodyAccJerkmeanX
+fBodyAccJerkmeanY
+fBodyAccJerkmeanZ
+fBodyAccJerkstdX
+fBodyAccJerkstdY
+fBodyAccJerkstdZ
+fBodyAccJerkmeanFreqX
+fBodyAccJerkmeanFreqY
+fBodyAccJerkmeanFreqZ
+fBodyGyromeanX
+fBodyGyromeanY
+fBodyGyromeanZ
+fBodyGyrostdX
+fBodyGyrostdY
+fBodyGyrostdZ
+fBodyGyromeanFreqX
+fBodyGyromeanFreqY
+fBodyGyromeanFreqZ
+fBodyAccMagmean
+fBodyAccMagstd
+fBodyAccMagmeanFreq
+fBodyBodyAccJerkMagmean
+fBodyBodyAccJerkMagstd
+fBodyBodyAccJerkMagmeanFreq
+fBodyBodyGyroMagmean
+fBodyBodyGyroMagstd
+fBodyBodyGyroMagmeanFreq
+fBodyBodyGyroJerkMagmean
+fBodyBodyGyroJerkMagstd
+fBodyBodyGyroJerkMagmeanFreq
+angletBodyAccMeangravity
+angletBodyAccJerkMeangravityMean
+angletBodyGyroMeangravityMean
+angletBodyGyroJerkMeangravityMean
+angleXgravityMean
+angleYgravityMean
+angleZgravityMean
+
 
 # Description of Code
 The only package needed is dplyr.  The first section reads in all the required text files.  The next sections are split into two pieces:
