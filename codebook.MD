@@ -20,7 +20,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-We are only interested in the means and standard deviations for this project.  All other columns were removed.
+Inertial Signals files were not included as they had no description file and would have been removed at the mean/standard deviation filter anyway.
 
 # Description of Code
 The only package needed is dplyr.  The first section reads in all the required text files.  The next sections are split into two pieces:
