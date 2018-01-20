@@ -1,6 +1,7 @@
 require('dplyr')
 
-setwd('C:/Users/user/Desktop/Work/data science courses/data/getting and cleaning data')
+#enter work directory containing unzipped files here
+setwd('...')
 
 xtest <- read.table('./UCI HAR Dataset/test/X_test.txt')
 ytest <- read.table('./UCI HAR Dataset/test/Y_test.txt')
