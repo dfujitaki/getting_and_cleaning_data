@@ -62,6 +62,6 @@ tidydata <- rbind(mergetraindata, mergetestdata)
 names(tidydata) = gsub("-|\\(|\\)|,", "",test)
 
 #####GET AVERAGES
-avg <- tidydata %>% group_by(activitylabel, subject) %>% 
+tidyavg <- tidydata %>% group_by(activitylabel, subject) %>% 
             summarise_all(funs(mean))
 
