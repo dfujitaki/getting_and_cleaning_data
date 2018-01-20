@@ -30,7 +30,7 @@ For both the trainng and test sets:
 
 Once both the training and test sets are created, I used rbind to append the two sets together and then used dplyr to summarize the columns by subject and activity.
 
-There are 30 subjects and 6 activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) for a total of 180 observations in the tidy average dataset.
+There are 30 subjects and 6 activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) for a total of 180 rows in the tidy average dataset.
 
 See run_analysis.R for more detail.
 
