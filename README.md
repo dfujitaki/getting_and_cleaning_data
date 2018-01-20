@@ -1,9 +1,9 @@
 # getting_and_cleaning_data
 
 # Files
-README - overview of the project and datasource
-Codebook - info on variables and variable transformations
-run_analysis.R - code to produce dataset
+* README - overview of the project and datasource
+* Codebook - info on variables and variable transformations
+* run_analysis.R - code to produce dataset
 
 # Data
 From source README:
