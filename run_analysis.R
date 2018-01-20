@@ -1,7 +1,6 @@
-require('plyr')
+require('dplyr')
 
-# Note the user must download the dataset and set up their work directory
-setwd('...')
+setwd('C:/Users/user/Desktop/Work/data science courses/data/getting and cleaning data')
 
 xtest <- read.table('./UCI HAR Dataset/test/X_test.txt')
 ytest <- read.table('./UCI HAR Dataset/test/Y_test.txt')
@@ -59,7 +58,7 @@ mergetraindata <- left_join(ytrain,subjecttrain, by='rnum') %>%
 #####COMBINE DATA
 tidydata <- rbind(mergetraindata, mergetestdata)
 #remove unnecessary characters
-names(tidydata) = gsub("-|\\(|\\)|,", "",test)
+names(tidydata) = gsub("-|\\(|\\)|,", "",names(tidydata))
 
 #####GET AVERAGES
 tidyavg <- tidydata %>% group_by(activitylabel, subject) %>% 
