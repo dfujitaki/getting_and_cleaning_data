@@ -37,6 +37,7 @@ See run_analysis.R for more detail.
 # Finalized Variable List:
 XYZ refers to the direction of the movement.
 Per Hadley's paper on tidy data for an individual dataset, each measurment should have an individual column and each observation should be in a different row.  Each observation (row) contains one measurement of the following variables:
+
 tBodyAccmeanX
 
 tBodyAccmeanY
